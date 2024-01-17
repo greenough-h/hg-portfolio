@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./About.css";
 
 export default function About() {
   return (
@@ -8,7 +9,7 @@ export default function About() {
         <div className="col">
           <h2>Hello! I'm</h2>
           <h1>Hayley Greenough</h1>
-          <h4>A little About Me</h4>
+          <h4>A little about me</h4>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse nam,
             eum dolor sunt quisquam, iste voluptas itaque voluptates

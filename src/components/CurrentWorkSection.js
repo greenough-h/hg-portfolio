@@ -1,4 +1,6 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import "./CurrentWorkSection.css";
 
 export default function CurrentWorkSection(props) {
   if (props.orient === "image-left") {
@@ -15,7 +17,9 @@ export default function CurrentWorkSection(props) {
               perferendis id ullam minus laudantium officiis error quibusdam
               veritatis!{" "}
             </p>
-            <a href="/">Launch this App</a>
+            <a href="/" className="btn btn-branded">
+              Launch this App
+            </a>
           </div>
         </div>
       </div>
@@ -31,7 +35,9 @@ export default function CurrentWorkSection(props) {
               perferendis id ullam minus laudantium officiis error quibusdam
               veritatis!{" "}
             </p>
-            <a href="/">Launch this App</a>
+            <a href="/" className="btn btn-branded">
+              Launch this App
+            </a>
           </div>
           <div className="col">
             <img src="" alt={props.alt} />

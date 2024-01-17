@@ -1,0 +1,8 @@
+:root {
+  --primary-color: #272142;
+  --accent-color: #9c89f5;
+}
+
+.App {
+  background-color: #1b1b1b;
+}

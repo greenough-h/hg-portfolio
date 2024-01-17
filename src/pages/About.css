@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #272142;
+  --accent-color: #9c89f5;
+}
+
+.About h2,
+h4,
+h3 {
+  color: var(--accent-color);
+}
+
+.About h1 {
+  color: white;
+}
+
+.About p {
+  color: white;
+}
