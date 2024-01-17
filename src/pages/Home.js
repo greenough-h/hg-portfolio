@@ -9,7 +9,6 @@ export default function Home() {
         <Link to="/About">About</Link>
       </nav>
       <header>
-        <h2>Hello! I'm</h2>
         <h1>Hayley Greenough</h1>
         <h3>Front-end Developer, based in California</h3>
         <a href="/">Contact Me</a>
