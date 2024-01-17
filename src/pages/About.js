@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import ContactBanner from "../components/ContactBanner";
 
 export default function About() {
   return (
