@@ -8,6 +8,10 @@
   margin: 90px auto;
 }
 
+.CurrentWorkSection h4 {
+  font-size: 30px;
+}
+
 .CurrentWorkSection p {
   color: white;
   margin-top: 15px;

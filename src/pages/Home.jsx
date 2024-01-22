@@ -23,7 +23,7 @@ export default function Home() {
         </Link>
       </header>
       <main>
-        <p>Take a look at some of my current work!</p>
+        <p className="mt-5">Take a look at some of my current work!</p>
         <CurrentWorkSection
           orient="image-left"
           title="Weather App"
