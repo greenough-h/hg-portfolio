@@ -26,7 +26,11 @@ export default function About() {
           </p>
         </div>
         <div className="col">
-          <img src="./images/me.jpeg" alt="Headshot of Hayley Greenough" />
+          <img
+            src={require("../images/me.jpeg")}
+            alt="Headshot of Hayley Greenough"
+            className="img-fluid"
+          />
         </div>
       </div>
       <h3>Contact Information</h3>
