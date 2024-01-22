@@ -8,11 +8,9 @@
   margin: 90px auto;
 }
 
-.CurrentWorkSection .btn-branded {
-  background-color: var(--primary-color);
-  border: 1px solid var(--accent-color);
-}
-
 .CurrentWorkSection p {
   color: white;
+  margin-top: 15px;
+  line-height: 25px;
+  font-weight: 300;
 }

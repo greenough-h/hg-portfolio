@@ -9,7 +9,7 @@ export default function ContactBanner() {
         <h5>Get in contact!</h5>
       </div>
       <div>
-        <a href="/" className="btn">
+        <a href="/About.jsx" className="btn">
           Contact Me
         </a>
       </div>

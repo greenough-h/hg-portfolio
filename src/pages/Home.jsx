@@ -8,14 +8,16 @@ export default function Home() {
   return (
     <div className="Home">
       <nav>
-        <Link to="/About">About</Link>
+        <Link to="/About" className="navigation">
+          About
+        </Link>
       </nav>
       <header>
         <h1>Hayley Greenough</h1>
         <h3>Front-end Developer, based in California</h3>
-        <a href="/" className="btn mt-5">
+        <Link to="/About" className="btn mt-5">
           Contact Me
-        </a>
+        </Link>
       </header>
       <main>
         <p>Take a look at some of my current work!</p>

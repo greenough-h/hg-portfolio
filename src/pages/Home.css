@@ -13,6 +13,21 @@
   font-size: 36px;
 }
 
+.Home nav {
+  padding: 20px;
+  text-align: right;
+}
+
+.navigation {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation:hover {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
 .Home header {
   background-color: var(--primary-color);
   text-align: center;
@@ -23,17 +38,21 @@
   background-color: var(--accent-color);
   color: white;
   padding: 13px 30px;
+  font-size: 22px;
 }
 
 .Home .btn-branded {
   background-color: var(--primary-color);
   border: 1px solid var(--accent-color);
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 .Home main > p {
   color: white;
   text-align: center;
   margin: 35px 0;
+  font-size: 20px;
 }
 
 .Home .footLink {

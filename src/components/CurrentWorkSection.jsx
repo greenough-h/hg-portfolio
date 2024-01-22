@@ -18,9 +18,8 @@ export default function CurrentWorkSection(props) {
           <div className="col">
             <h4>{props.title}</h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
-              perferendis id ullam minus laudantium officiis error quibusdam
-              veritatis!{" "}
+              This is a current weather and forecast application that is built
+              in React.{" "}
             </p>
             <a
               href={props.siteLink}
@@ -41,9 +40,9 @@ export default function CurrentWorkSection(props) {
           <div className="col">
             <h4>{props.title}</h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
-              perferendis id ullam minus laudantium officiis error quibusdam
-              veritatis!{" "}
+              The AI Pet Name Generator uses the API of SheCodes to put together
+              a relevant query based on the species and ~vibe~ of your pet. It
+              then produces a name for your pet. Rarely ever misses.{" "}
             </p>
             <a
               href={props.siteLink}
