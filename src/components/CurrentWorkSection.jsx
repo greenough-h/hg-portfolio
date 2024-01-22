@@ -8,10 +8,10 @@ export default function CurrentWorkSection(props) {
       <div className="CurrentWorkSection">
         <div className="row">
           <div className="col">
-            <img src="" alt={props.alt} />
+            <img src={props.imgpath} alt={props.title} title={props.title} />
           </div>
           <div className="col">
-            <h4>{props.alt}</h4>
+            <h4>{props.title}</h4>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
               perferendis id ullam minus laudantium officiis error quibusdam
@@ -29,7 +29,7 @@ export default function CurrentWorkSection(props) {
       <div className="CurrentWorkSection">
         <div className="row">
           <div className="col">
-            <h4>{props.alt}</h4>
+            <h4>{props.title}</h4>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
               perferendis id ullam minus laudantium officiis error quibusdam
@@ -40,7 +40,7 @@ export default function CurrentWorkSection(props) {
             </a>
           </div>
           <div className="col">
-            <img src="" alt={props.alt} />
+            <img src={props.imgpath} alt={props.title} title={props.title} />
           </div>
         </div>
       </div>

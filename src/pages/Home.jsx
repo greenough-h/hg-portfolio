@@ -19,9 +19,16 @@ export default function Home() {
       </header>
       <main>
         <p>Take a look at some of my current work</p>
-        <CurrentWorkSection orient="image-left" alt="weather" />
-        <CurrentWorkSection orient="image-right" alt="ai-petname" />
-        <CurrentWorkSection orient="image-left" alt="portfolio" />
+        <CurrentWorkSection
+          orient="image-left"
+          title="Weather App"
+          imgpath="../images/weather.png"
+        />
+        <CurrentWorkSection
+          orient="image-right"
+          title="AI Pet Name Generator"
+          imgpath="../images/AIpetname.png"
+        />
       </main>
       <ContactBanner />
     </div>

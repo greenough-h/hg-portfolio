@@ -3,6 +3,11 @@
   --accent-color: #9c89f5;
 }
 
+.CurrentWorkSection {
+  width: 90%;
+  margin: 40px auto;
+}
+
 .CurrentWorkSection .btn-branded {
   background-color: var(--primary-color);
   border: 1px solid var(--accent-color);
