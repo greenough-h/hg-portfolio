@@ -8,6 +8,9 @@ export default function Home() {
   return (
     <div className="Home">
       <nav>
+        <Link to="/" className="navigation">
+          Home
+        </Link>
         <Link to="/About" className="navigation">
           About
         </Link>

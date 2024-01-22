@@ -13,6 +13,22 @@ h3 {
   color: white;
 }
 
+.About nav {
+  padding: 20px;
+  text-align: right;
+}
+
+.navigation {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navigation:hover {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
 .About p {
   color: white;
 }

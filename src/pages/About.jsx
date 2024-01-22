@@ -4,7 +4,14 @@ import "./About.css";
 export default function About() {
   return (
     <div className="About">
-      <Link to="/">Home</Link>
+      <nav>
+        <Link to="/" className="navigation">
+          Home
+        </Link>
+        <Link to="/About" className="navigation">
+          About
+        </Link>
+      </nav>
       <div className="row">
         <div className="col">
           <h2>Hello! I'm</h2>
@@ -18,7 +25,7 @@ export default function About() {
           </p>
         </div>
         <div className="col">
-          <img src="/" alt="" />
+          <img src="../images/me.jpeg" alt="" />
         </div>
       </div>
       <h3>Contact Information</h3>

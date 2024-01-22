@@ -4,6 +4,7 @@ import "./ContactBanner.css";
 export default function ContactBanner() {
   return (
     <div className="ContactBanner d-flex justify-content-around mt-3">
+      <div></div>
       <div className="contact-prompt">
         <h4>Interested in working together?</h4>
         <h5>Get in contact!</h5>
@@ -13,6 +14,7 @@ export default function ContactBanner() {
           Contact Me
         </a>
       </div>
+      <div></div>
     </div>
   );
 }

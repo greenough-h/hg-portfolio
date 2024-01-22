@@ -18,8 +18,9 @@ export default function CurrentWorkSection(props) {
           <div className="col">
             <h4>{props.title}</h4>
             <p>
-              This is a current weather and forecast application that is built
-              in React.{" "}
+              A current weather and forecast application. You can search any
+              city in the Open Weather API and view a 6 day forecast. Built in
+              React.{" "}
             </p>
             <a
               href={props.siteLink}
