@@ -23,11 +23,13 @@ export default function Home() {
           orient="image-left"
           title="Weather App"
           imgpath="../images/weather.png"
+          siteLink="https://weather-app-react-88.netlify.app/"
         />
         <CurrentWorkSection
           orient="image-right"
           title="AI Pet Name Generator"
           imgpath="../images/AIpetname.png"
+          siteLink="https://rolypoly-petnames.netlify.app/"
         />
       </main>
       <ContactBanner />

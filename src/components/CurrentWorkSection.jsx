@@ -17,7 +17,12 @@ export default function CurrentWorkSection(props) {
               perferendis id ullam minus laudantium officiis error quibusdam
               veritatis!{" "}
             </p>
-            <a href="/" className="btn btn-branded">
+            <a
+              href={props.siteLink}
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-branded"
+            >
               Launch this App
             </a>
           </div>
@@ -35,7 +40,12 @@ export default function CurrentWorkSection(props) {
               perferendis id ullam minus laudantium officiis error quibusdam
               veritatis!{" "}
             </p>
-            <a href="/" className="btn btn-branded">
+            <a
+              href={props.siteLink}
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-branded"
+            >
               Launch this App
             </a>
           </div>
