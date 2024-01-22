@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
 
@@ -25,7 +26,7 @@ export default function About() {
           </p>
         </div>
         <div className="col">
-          <img src="../images/me.jpeg" alt="" />
+          <img src="./images/me.jpeg" alt="Headshot of Hayley Greenough" />
         </div>
       </div>
       <h3>Contact Information</h3>

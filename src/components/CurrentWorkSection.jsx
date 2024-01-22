@@ -9,7 +9,7 @@ export default function CurrentWorkSection(props) {
         <div className="row">
           <div className="col">
             <img
-              src={props.imgpath}
+              src="src/images/weather.png"
               alt={props.title}
               title={props.title}
               className="img-fluid"
@@ -56,7 +56,7 @@ export default function CurrentWorkSection(props) {
           </div>
           <div className="col">
             <img
-              src={props.imgpath}
+              src="src/images/AIpetname.png"
               alt={props.title}
               title={props.title}
               className="img-fluid"
