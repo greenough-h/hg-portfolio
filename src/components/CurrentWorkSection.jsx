@@ -8,7 +8,12 @@ export default function CurrentWorkSection(props) {
       <div className="CurrentWorkSection">
         <div className="row">
           <div className="col">
-            <img src={props.imgpath} alt={props.title} title={props.title} />
+            <img
+              src={props.imgpath}
+              alt={props.title}
+              title={props.title}
+              className="img-fluid"
+            />
           </div>
           <div className="col">
             <h4>{props.title}</h4>
@@ -50,7 +55,12 @@ export default function CurrentWorkSection(props) {
             </a>
           </div>
           <div className="col">
-            <img src={props.imgpath} alt={props.title} title={props.title} />
+            <img
+              src={props.imgpath}
+              alt={props.title}
+              title={props.title}
+              className="img-fluid"
+            />
           </div>
         </div>
       </div>

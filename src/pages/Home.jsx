@@ -18,7 +18,7 @@ export default function Home() {
         </a>
       </header>
       <main>
-        <p>Take a look at some of my current work</p>
+        <p>Take a look at some of my current work!</p>
         <CurrentWorkSection
           orient="image-left"
           title="Weather App"
@@ -33,6 +33,12 @@ export default function Home() {
         />
       </main>
       <ContactBanner />
+      <footer className="d-flex justify-content-center">
+        <div className="footLink">linkedin</div>
+        <div className="footLink">github</div>
+        <div className="footLink">instagram</div>
+        <div className="footLink">site</div>
+      </footer>
     </div>
   );
 }

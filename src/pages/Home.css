@@ -25,7 +25,18 @@
   padding: 13px 30px;
 }
 
-.Home btn-branded {
+.Home .btn-branded {
   background-color: var(--primary-color);
   border: 1px solid var(--accent-color);
+}
+
+.Home main > p {
+  color: white;
+  text-align: center;
+  margin: 35px 0;
+}
+
+.Home .footLink {
+  margin: 30px;
+  color: var(--accent-color);
 }
