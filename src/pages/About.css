@@ -3,14 +3,18 @@
   --accent-color: #9c89f5;
 }
 
-.About h2,
-h4,
-h3 {
-  color: var(--accent-color);
+.About h4 {
+  color: white;
 }
 
 .About h1 {
-  color: white;
+  color: var(--accent-color);
+  font-size: 52px;
+  margin: 17px 0;
+}
+
+.About h3 {
+  color: var(--accent-color);
 }
 
 .About nav {
@@ -31,9 +35,17 @@ h3 {
 
 .About p {
   color: white;
+  line-height: 31px;
+  margin-top: 24px;
+  max-width: 90%;
 }
 
 .About .row {
-  max-width: 90%;
-  margin: 30px auto;
+  max-width: 80%;
+  margin: 70px auto;
+}
+
+.About img {
+  border-radius: 10px;
+  border: 1px solid white;
 }

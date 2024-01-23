@@ -18,7 +18,7 @@ export default function Home() {
       <header>
         <h1>Hayley Greenough</h1>
         <h3>Front-end Developer, based in California</h3>
-        <Link to="/About" className="btn mt-5">
+        <Link to="/Contact" className="btn mt-5">
           Contact Me
         </Link>
       </header>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactBanner.css";
+import { Link } from "react-router-dom";
 
 export default function ContactBanner() {
   return (
@@ -10,9 +11,9 @@ export default function ContactBanner() {
         <h5>Get in contact!</h5>
       </div>
       <div>
-        <a href="/About.jsx" className="btn">
+        <Link to="/Contact" className="btn">
           Contact Me
-        </a>
+        </Link>
       </div>
       <div></div>
     </div>

@@ -9,6 +9,7 @@
 }
 
 .CurrentWorkSection h4 {
+  color: var(--accent-color);
   font-size: 30px;
 }
 
@@ -17,4 +18,9 @@
   margin-top: 15px;
   line-height: 25px;
   font-weight: 300;
+}
+
+.CurrentWorkSection img {
+  border-radius: 10px;
+  border: 1px solid var(--accent-color);
 }

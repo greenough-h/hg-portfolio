@@ -1,0 +1,25 @@
+.Contact h3 {
+  color: var(--accent-color);
+  margin-top: 20px;
+}
+
+.Contact h2 {
+  color: white;
+  text-align: center;
+  font-size: 38px;
+  font-weight: light;
+  background-color: var(--primary-color);
+  padding: 35px;
+}
+
+.Contact .contact-details {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.Contact a {
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
