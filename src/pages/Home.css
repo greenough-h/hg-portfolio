@@ -16,6 +16,7 @@
 .Home nav {
   padding: 20px;
   text-align: right;
+  font-size: 18px;
 }
 
 .navigation {
@@ -58,4 +59,13 @@
 .Home .footLink {
   margin: 30px;
   color: var(--accent-color);
+}
+
+.Home a.email {
+  font-size: 22px;
+  display: block;
+  margin: 50px auto 0;
+  text-align: center;
+  color: white;
+  text-decoration: none;
 }
