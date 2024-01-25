@@ -8,9 +8,14 @@
   font-size: 96px;
 }
 
+.Home h2 {
+  color: white;
+  font-size: 40px;
+}
+
 .Home h3 {
   color: var(--accent-color);
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .Home nav {
@@ -30,6 +35,10 @@
   text-decoration: none;
 }
 
+.Home .active {
+  color: var(--accent-color);
+}
+
 .Home header {
   background-color: var(--primary-color);
   text-align: center;
@@ -40,7 +49,14 @@
   background-color: var(--accent-color);
   color: white;
   padding: 13px 30px;
-  font-size: 22px;
+  font-size: 20px;
+  font-family: montserrat;
+  transition: all 100ms ease-in-out;
+}
+
+.Home .btn:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--accent-color);
 }
 
 .Home .btn-branded {
@@ -48,12 +64,19 @@
   border: 1px solid var(--accent-color);
   font-size: 16px;
   margin-top: 10px;
+  font-family: montserrat;
+  transition: all 100ms ease-in-out;
+}
+
+.Home .btn-branded:hover {
+  background-color: var(--accent-color);
 }
 
 .Home main > p {
   color: white;
   text-align: center;
-  font-size: 19px;
+  font-size: 17px;
+  margin: 50px auto;
 }
 
 .Home .footLink {

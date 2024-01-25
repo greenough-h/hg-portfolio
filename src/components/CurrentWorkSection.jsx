@@ -5,7 +5,7 @@ import "./CurrentWorkSection.css";
 export default function CurrentWorkSection(props) {
   if (props.orient === "image-left") {
     return (
-      <div className="CurrentWorkSection">
+      <div className="CurrentWorkSection container">
         <div className="row">
           <div className="col">
             <img
@@ -36,7 +36,7 @@ export default function CurrentWorkSection(props) {
     );
   } else {
     return (
-      <div className="CurrentWorkSection">
+      <div className="CurrentWorkSection container">
         <div className="row">
           <div className="col">
             <h4>{props.title}</h4>

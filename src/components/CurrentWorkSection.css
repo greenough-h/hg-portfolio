@@ -5,12 +5,12 @@
 
 .CurrentWorkSection {
   max-width: 80%;
-  margin: 90px auto;
+  margin: 0 auto 60px;
 }
 
 .CurrentWorkSection h4 {
-  color: var(--accent-color);
-  font-size: 30px;
+  color: white;
+  font-size: 36px;
 }
 
 .CurrentWorkSection p {
@@ -21,6 +21,5 @@
 }
 
 .CurrentWorkSection img {
-  border-radius: 10px;
-  border: 1px solid var(--accent-color);
+  border-radius: 2px;
 }

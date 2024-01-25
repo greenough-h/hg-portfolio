@@ -7,8 +7,8 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="Home">
-      <nav>
-        <Link to="/" className="navigation">
+      <nav className="container">
+        <Link to="/" className="navigation active">
           Home
         </Link>
         <Link to="/About" className="navigation">
@@ -16,16 +16,15 @@ export default function Home() {
         </Link>
       </nav>
       <header>
+        <h2>Hi I'm</h2>
         <h1>Hayley Greenough</h1>
-        <h3>Front-end Developer, based in California</h3>
+        <h3 className="mt-2 mb-2">Front-end Developer, based in California</h3>
         <Link to="/Contact" className="btn mt-5">
           Contact Me
         </Link>
       </header>
       <main>
-        <p className="mt-5">
-          Take a look at a few of the applications I've created here
-        </p>
+        <p>Take a look at a few of the applications I've created here:</p>
         <CurrentWorkSection
           orient="image-left"
           title="Weather App"

@@ -6,11 +6,11 @@ import Contact from "../components/Contact";
 export default function About() {
   return (
     <div className="About">
-      <nav>
+      <nav className="container">
         <Link to="/" className="navigation">
           Home
         </Link>
-        <Link to="/About" className="navigation">
+        <Link to="/About" className="navigation active">
           About
         </Link>
       </nav>
