@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
@@ -43,7 +44,11 @@ export default function Contact() {
           </a>
         </div>
       </div>
-      <br />
+      <div className="break">
+        <Link to="/" className="returnHome">
+          Return Home
+        </Link>
+      </div>
     </div>
   );
 }

@@ -14,10 +14,11 @@ export default function About() {
           About
         </Link>
       </nav>
-      <div className="row">
+      <div className="break"></div>
+      <div className="row container">
         <div className="col">
-          <h4>A little bit about</h4>
-          <h1>Hayley Greenough</h1>
+          <h4>Hi! I'm Hayley -</h4>
+          <h1>A little bit more about me...</h1>
           <p>
             I've always had an artistic eye. Whether it be studio art or dance,
             creativity always drove me and has brought me joy. I also thoroughly

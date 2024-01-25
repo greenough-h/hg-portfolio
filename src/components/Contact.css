@@ -1,25 +1,29 @@
-.Contact h3 {
-  color: var(--accent-color);
-  margin-top: 20px;
-}
-
 .Contact h2 {
   color: white;
   text-align: center;
-  font-size: 38px;
+  font-size: 48px;
   font-weight: light;
   background-color: var(--primary-color);
-  padding: 35px;
+  padding: 40px;
+  font-family: montserrat;
+  margin: 0;
+}
+
+.Contact h3 {
+  color: white;
+  margin-top: 20px;
 }
 
 .Contact .contact-details {
-  margin-left: 50px;
-  margin-bottom: 50px;
+  margin: 60px 0 90px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 .Contact a {
-  color: white;
+  color: var(--accent-color);
   font-size: 18px;
-  font-weight: lighter;
   margin-bottom: 20px;
+  text-align: center;
 }

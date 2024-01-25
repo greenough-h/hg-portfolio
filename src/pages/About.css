@@ -4,17 +4,16 @@
 }
 
 .About h4 {
-  color: white;
+  color: var(--accent-color);
+  font-size: 48px;
+  font-weight: light;
 }
 
 .About h1 {
-  color: var(--accent-color);
-  font-size: 52px;
+  color: white;
+  font-size: 60px;
   margin: 17px 0;
-}
-
-.About h3 {
-  color: var(--accent-color);
+  font-family: montserrat;
 }
 
 .About nav {
@@ -41,16 +40,37 @@
 .About p {
   color: white;
   line-height: 31px;
-  margin-top: 24px;
+  margin-top: 30px;
   max-width: 90%;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .About .row {
   max-width: 80%;
-  margin: 70px auto;
+  margin: 50px auto;
+  margin-bottom: 70px;
 }
 
 .About img {
   border-radius: 10px;
   border: 1px solid white;
+}
+
+.About .break {
+  background-color: var(--primary-color);
+  padding: 40px;
+  text-align: center;
+}
+
+.About .returnHome {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: montserrat;
+  background-color: #9c89f5;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
