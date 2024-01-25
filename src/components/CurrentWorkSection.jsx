@@ -9,7 +9,7 @@ export default function CurrentWorkSection(props) {
         <div className="row">
           <div className="col">
             <img
-              src={require("../images/weather.png")}
+              src={require("../images/weatherapp.png")}
               alt={props.title}
               title={props.title}
               className="img-fluid"
