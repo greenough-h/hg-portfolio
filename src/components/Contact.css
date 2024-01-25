@@ -27,3 +27,21 @@
   margin-bottom: 20px;
   text-align: center;
 }
+
+.Contact .break {
+  background-color: var(--primary-color);
+  padding: 40px;
+  text-align: center;
+}
+
+.Contact .returnHome {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: montserrat;
+  background-color: #9c89f5;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
