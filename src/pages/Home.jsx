@@ -35,7 +35,7 @@ export default function Home() {
           orient="image-right"
           title="AI Pet Name Generator"
           imgpath="src/images/AIpetname.png"
-          siteLink="https://rolypoly-petnames.netlify.app/"
+          siteLink="https://ai-petname-generator.netlify.app/"
         />
       </main>
       <ContactBanner />

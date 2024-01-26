@@ -16,10 +16,17 @@
 .CurrentWorkSection p {
   color: white;
   margin-top: 15px;
-  line-height: 25px;
+  line-height: 27px;
   font-weight: 300;
+  display: block;
+  max-width: 550px;
 }
 
 .CurrentWorkSection img {
   border-radius: 2px;
+}
+
+.CurrentWorkSection .description {
+  margin-top: 20px;
+  margin-left: 20px;
 }
