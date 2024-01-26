@@ -1,3 +1,7 @@
+body {
+  background-color: var(--primary-color);
+}
+
 .Contact h2 {
   color: white;
   text-align: center;
