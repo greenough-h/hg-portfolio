@@ -7,8 +7,8 @@ export default function ContactBanner() {
     <div className="ContactBanner d-flex justify-content-around mt-3">
       <div></div>
       <div className="contact-prompt">
-        <h4>Interested in working together?</h4>
-        <h5>Get in contact!</h5>
+        <h4>Let's work together!</h4>
+        <h5>Get in contact here</h5>
       </div>
       <div>
         <Link to="/Contact" className="btn">

@@ -6,9 +6,13 @@
 
 .ContactBanner h5 {
   color: white;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .ContactBanner h4 {
   color: var(--accent-color);
+  font-size: 35px;
+}
+.ContactBanner .btn {
+  margin-top: 10px;
 }
