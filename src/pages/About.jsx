@@ -16,8 +16,8 @@ export default function About() {
       </nav>
       <div className="break"></div>
       <div className="row container">
-        <div className="col">
-          <h4>Hi! I'm Hayley -</h4>
+        <div className="col-lg-6">
+          <h4>Hi! I'm Hayley</h4>
           <h1>A little bit more about me...</h1>
           <p>
             I've always had an artistic eye. Whether it be studio art or dance,
@@ -32,7 +32,7 @@ export default function About() {
             reach out to me if you're interested in working together!
           </p>
         </div>
-        <div className="col">
+        <div className="col-lg-6">
           <img
             src={require("../images/me.jpeg")}
             alt="Headshot of Hayley Greenough"
