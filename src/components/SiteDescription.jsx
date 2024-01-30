@@ -29,7 +29,7 @@ export default function SiteDescription(props) {
   let selection = currentWork[props.data];
 
   return (
-    <div className="col SiteDescription">
+    <div className="col-md-6 SiteDescription">
       <div className="description">
         <h4>{selection.title}</h4>
         <p> {selection.description} </p>

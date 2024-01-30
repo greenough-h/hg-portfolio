@@ -31,7 +31,7 @@ export default function SiteImage(props) {
   let selection = currentWork[props.data];
 
   return (
-    <div className={`col SiteImage ${props.className}`}>
+    <div className={`col-md-6 SiteImage ${props.className}`}>
       <img
         src={selection.imgNameImport}
         alt={selection.alt}

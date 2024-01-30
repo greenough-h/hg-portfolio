@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function ContactBanner() {
   return (
-    <div className="ContactBanner d-flex justify-content-around mt-3">
+    <div className="ContactBanner mt-3">
       <div></div>
       <div className="contact-prompt">
         <h4>Let's work together!</h4>

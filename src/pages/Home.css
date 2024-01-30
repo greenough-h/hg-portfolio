@@ -92,3 +92,66 @@
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 992px) {
+  .Home .btn-branded {
+    font-size: 13px;
+  }
+
+  .Home .btn {
+    font-size: 14px;
+  }
+
+  .Home h1 {
+    font-size: 68px;
+  }
+
+  .Home h2 {
+    font-size: 30px;
+  }
+
+  .Home h3 {
+    font-size: 18px;
+  }
+
+  .Home nav {
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  .Home header {
+    padding: 50px 0;
+  }
+
+  .Home main > p {
+    font-size: 15px;
+    margin: 50px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .Home h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .Home main > p {
+    font-size: 15px;
+    margin: 28px 5px;
+  }
+
+  .Home a.email {
+    font-size: 16px;
+  }
+
+  .Home .footLink {
+    margin: 15px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 350px) {
+  .Home h1 {
+    font-size: 44px;
+  }
+}

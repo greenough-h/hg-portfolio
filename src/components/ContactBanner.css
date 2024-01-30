@@ -2,6 +2,8 @@
   text-align: right;
   background-color: var(--primary-color);
   padding: 45px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .ContactBanner h5 {
@@ -15,4 +17,20 @@
 }
 .ContactBanner .btn {
   margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .ContactBanner h5 {
+    font-size: 19px;
+  }
+  .ContactBanner h4 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 585px) {
+  .ContactBanner {
+    flex-direction: column;
+    text-align: center;
+  }
 }
