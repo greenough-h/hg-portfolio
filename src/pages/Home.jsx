@@ -25,18 +25,8 @@ export default function Home() {
       </header>
       <main>
         <p>Take a look at a few of the applications I've created here:</p>
-        <CurrentWorkSection
-          orient="image-left"
-          title="Weather App"
-          imgpath="src/images/weather.png"
-          siteLink="https://weather-app-react-88.netlify.app/"
-        />
-        <CurrentWorkSection
-          orient="image-right"
-          title="AI Pet Name Generator"
-          imgpath="src/images/AIpetname.png"
-          siteLink="https://ai-petname-generator.netlify.app/"
-        />
+        <CurrentWorkSection orient="image-left" content="Weather" />
+        <CurrentWorkSection orient="image-right" content="PetName" />
       </main>
       <ContactBanner />
       <div>

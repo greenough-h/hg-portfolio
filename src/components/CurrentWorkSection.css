@@ -30,3 +30,11 @@
   margin-top: 20px;
   margin-left: 20px;
 }
+
+.CurrentWorkSection .row {
+  display: flex;
+}
+
+.image-right {
+  order: 1;
+}

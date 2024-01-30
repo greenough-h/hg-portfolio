@@ -5,23 +5,12 @@ import SiteImage from "./SiteImage";
 import SiteDescription from "./SiteDescription";
 
 export default function CurrentWorkSection(props) {
-  if (props.orient === "image-left") {
-    return (
-      <div className="CurrentWorkSection container">
-        <div className="row">
-          <SiteImage />
-          <SiteDescription />
-        </div>
+  return (
+    <div className="CurrentWorkSection container">
+      <div className="row">
+        <SiteImage className={props.orient} data={props.content} />
+        <SiteDescription data={props.content} />
       </div>
-    );
-  } else {
-    return (
-      <div className="CurrentWorkSection container">
-        <div className="row">
-          <SiteDescription />
-          <SiteImage />
-        </div>
-      </div>
-    );
-  }
+    </div>
+  );
 }
