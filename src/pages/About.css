@@ -87,6 +87,11 @@
     text-align: center;
   }
 
+  .About nav {
+    padding: 16px;
+    font-size: 16px;
+  }
+
   .About p {
     display: block;
     line-height: 27px;
