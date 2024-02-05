@@ -33,6 +33,16 @@ export default function Contact() {
             Profile
           </a>
         </div>
+        <div className="resume">
+          <h3>Resume</h3>
+          <a
+            href="https://www.dropbox.com/scl/fi/xr7aicqjaw7xuvddz1snu/HayleyGreenoughFrontEndDev.pdf?rlkey=3225x6fl0b1bkq5vi4z335x9i&dl=0"
+            target="_blank"
+            rel="noreferrer"
+          >
+            My Resume
+          </a>
+        </div>
         <div className="art-instagram">
           <h3>Art Instagram</h3>
           <a
