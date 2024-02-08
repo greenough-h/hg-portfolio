@@ -26,11 +26,12 @@ export default function SiteDescription(props) {
     },
     Pinnacles: {
       title: "Pinnacles National Park Travel Site",
-      alt: "Image of landing site for Pinnacles national park travel site"
+      alt: "Image of landing site for Pinnacles national park travel site",
       imgpath: "src/images/Pinnacles.png",
       sitelink: "https://neon-pasca-10d87b.netlify.app/",
-      description: "This site is built with vanilla HTML and CSS and was a project to further my responsive web design skills. I Thoroughly enjoyed building htis one despite having learned all the skills to potentially make it more complex in React because it was so enjoyable to just create something that really resonated with what I'm passionate about - being outdoors and with my friends hiking and enjoying nature and this park is a really exceptional place to do just that."
-    }
+      description:
+        "This site is built with vanilla HTML and CSS and was a project to further my responsive web design skills. I Thoroughly enjoyed building htis one despite having learned all the skills to potentially make it more complex in React because it was so enjoyable to just create something that really resonated with what I'm passionate about - being outdoors and with my friends hiking and enjoying nature and this park is a really exceptional place to do just that.",
+    },
   };
 
   let selection = currentWork[props.data];
