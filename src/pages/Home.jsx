@@ -27,6 +27,7 @@ export default function Home() {
         <p>Take a look at a few of the applications I've created here:</p>
         <CurrentWorkSection orient="image-left" content="Weather" />
         <CurrentWorkSection orient="image-right" content="PetName" />
+        <CurrentWorkSection orient="image-left" content="Pinnacles" />
       </main>
       <ContactBanner />
       <div>
