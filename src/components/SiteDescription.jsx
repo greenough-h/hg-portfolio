@@ -28,7 +28,7 @@ export default function SiteDescription(props) {
       title: "Pinnacles National Park Travel Site",
       alt: "Image of landing site for Pinnacles national park travel site",
       imgpath: "src/images/Pinnacles.png",
-      sitelink: "https://neon-pasca-10d87b.netlify.app/",
+      siteLink: "https://neon-pasca-10d87b.netlify.app/",
       description:
         "This site is built with vanilla HTML and CSS and was a project to further my responsive web design skills. I thoroughly enjoyed building this site despite having learned all the skills to potentially make it more complex (cue the parade of potential React components). It was so enjoyable to just create something that really resonated with what I'm passionate about - being outdoors and with my friends hiking and enjoying nature. Also, this park is a really an exceptional place to do just that and it was fun to try and capture that with some of my own personal images and experiences.",
     },
