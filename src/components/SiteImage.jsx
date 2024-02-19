@@ -2,6 +2,7 @@ import React from "react";
 import weatherImage from "../images/weatherapp.png";
 import petNameImage from "../images/AIpetname.png";
 import pinnaclesImage from "../images/Pinnacles.png";
+import { motion } from "framer-motion";
 
 export default function SiteImage(props) {
   const currentWork = {
@@ -42,12 +43,19 @@ export default function SiteImage(props) {
 
   return (
     <div className={`col-md-6 SiteImage ${props.className}`}>
-      <img
-        src={selection.imgNameImport}
-        alt={selection.alt}
-        title={selection.title}
-        className={`img-fluid ${props.className}`}
-      />
+      <motion.div
+        // is it worth bringing in a sliding animation?
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.5 }}
+      >
+        <img
+          src={selection.imgNameImport}
+          alt={selection.alt}
+          title={selection.title}
+          className={`img-fluid ${props.className}`}
+        />
+      </motion.div>
     </div>
   );
 }

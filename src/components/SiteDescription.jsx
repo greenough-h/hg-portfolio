@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function SiteDescription(props) {
   const currentWork = {
@@ -38,18 +39,24 @@ export default function SiteDescription(props) {
 
   return (
     <div className="col-md-6 SiteDescription">
-      <div className="description">
-        <h4>{selection.title}</h4>
-        <p> {selection.description} </p>
-        <a
-          href={selection.siteLink}
-          target="_blank"
-          rel="noreferrer"
-          className="btn btn-branded"
-        >
-          Launch this App
-        </a>
-      </div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.5 }}
+      >
+        <div className="description">
+          <h4>{selection.title}</h4>
+          <p> {selection.description} </p>
+          <a
+            href={selection.siteLink}
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-branded"
+          >
+            Launch this App
+          </a>
+        </div>
+      </motion.div>
     </div>
   );
 }
